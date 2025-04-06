@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.content{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.container_image{
+    background: url('./images/background-image.jpg') no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.container_image--text{
+    color: rgba(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    background-color: black;
+    opacity: 0.4;
+}
+.container_image--text h1{
+    font-size: 3rem;
+
+
+}
+.container_content{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.text--wrapper p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.form_wrapper{
+    padding: 10px;
+}
+fieldset{
+    padding: 10px 10px;
+    box-shadow: 4px 4px 4px 4px rgb(193, 189, 189);
+}
+fieldset> h3{
+    padding-bottom: 10px;
+    
+}
+.form--control{
+    font-size: 0.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.ctrl{
+    flex: 0 0 48%;
+}
+.ctrl label {
+    display: block;
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+  }
+  
+  .ctrl input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  #pass:invalid{
+    border-color: red;
+  }
+  #pass:valid{
+    border-color: green;
+  }
+  .submit{
+    padding: 10px;
+  }
+  .submit button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(76, 126, 76);
+    border: 0px;
+    border-radius: 10px;
+  }
+  .footerbtn{
+    padding-top: 20px;
+    display: flex;
+    gap: 3px;
+  }
+  .footerbtn a{
+    text-decoration: none;
+    color: rgb(76, 126, 76);
+  }

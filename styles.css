@@ -16,16 +16,14 @@
 
 .container_image--text{
     color: rgba(255, 255, 255);
-    position: absolute;
-    top: 50%;
-    left: 250px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
     opacity: 0.4;
 }
 .container_image--text h1{
     font-size: 3rem;
-
-
 }
 .container_content{
     width: 50%;
